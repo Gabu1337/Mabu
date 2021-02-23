@@ -1,0 +1,16 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    position: absolute;
+    top: 0px;
+    height: 5%;
+    width: 100%;
+}
+
+.navbar.light {
+    background-color: rgb(63, 128, 87);
+    color: white;
+}
