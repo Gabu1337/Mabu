@@ -1,16 +1,65 @@
-* {
-    padding: 0px;
-    margin: 0px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
 
-.navbar {
+* {padding: 0px; margin: 0px; font-family: 'Akaya Telivigala', cursive;}
+
+.div-nav {
     position: absolute;
-    top: 0px;
-    height: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
+    top: 0px
 }
 
-.navbar.light {
-    background-color: rgb(63, 128, 87);
-    color: white;
+.div-nav.light {
+    background-color: rgb(27, 104, 79);
+    color: rgb(26, 38, 38);
+}
+
+.div-nav i {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.div-nav i:hover {
+    background-color: rgb(38, 131, 101);
+}
+
+.div-nav h2 {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.div-nav h2:hover {
+    background-color: rgb(38, 131, 101);
+}
+.nav-sinistra {
+    display: flex;
+    flex-direction: row;
+    margin-top: 7px;
+}
+
+.nav-destra {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 7px;
+}
+
+
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    bottom: 0px;
+}
+
+.footer.light {
+    background-color: rgb(27, 104, 79);
+    color: rgb(26, 38, 38);
 }
