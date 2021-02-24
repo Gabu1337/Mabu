@@ -3,7 +3,7 @@
 * {padding: 0px; margin: 0px; font-family: 'Akaya Telivigala', cursive;}
 
 .div-nav {
-    position: absolute;
+    position: static;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -50,6 +50,28 @@
     margin-top: 7px;
 }
 
+.menu {
+    position: absolute;
+    padding-top: 80px;
+    display: none;
+    flex-direction: column;
+    height: 90%;
+    background-color: rgb(27, 104, 79);
+    overflow: hidden;
+}
+
+.riga-menu {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 10px;
+    margin: 3px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.riga-menu:hover {
+    background-color: rgb(38, 131, 101);
+}
 
 .footer {
     position: absolute;
